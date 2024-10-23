@@ -32,6 +32,8 @@ uvicorn app.main:app --reload
 Manual Testing with Curl or Postman:
 
 #Retrieve a Sample Paper (GET /papers/{paper_id})
+
 Upload PDF for Extraction (POST /extract/pdf): You can test this using Postman to upload a file, or you can use a curl command with --form:
+
 Task Status (GET /tasks/{task_id})
 
